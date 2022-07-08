@@ -11,7 +11,7 @@ export const UpperHeader = () => {
                     justifyContent: "flex-end"
     
                   }}>
-              <AppBar position='static' style={{backgroundColor: '#161b1d',height:'32px'}}  
+              <AppBar position='static' style={{backgroundColor: '#161b1d',height:'32px',fontFamily:'Myriad Pro'}}  
                          >
                       <Stack direction='row' spacing={1} height='32px' justifyContent='flex-end'>
                         <Divider
@@ -27,7 +27,7 @@ export const UpperHeader = () => {
                                   }}
                           >
                             <PhoneAndroid style={{ height: '13px',alignItems:'center' }} />
-                              <span style={{ fontSize: '11px',}}>
+                              <span style={{ fontSize: '12px',}}>
                                 +230 52 93 51 11
                               </span>
                           </Button>
@@ -43,9 +43,10 @@ export const UpperHeader = () => {
                                           flexWrap: 'wrap',
                                         }}
                           >
-                              <span style={{ fontSize: '11px', textTransform: 'none' }}>
+                              <span style={{ fontSize: '12px', textTransform: 'none' }}>
                                 Login
                               </span>
+                              
                           </Button>
                         <Divider
                                 orientation="vertical"
@@ -59,7 +60,7 @@ export const UpperHeader = () => {
                                     flexWrap: 'wrap',
                                   }}
                           >
-                            <span style={{ fontSize: '11px', textTransform: 'none'}}>
+                            <span style={{ fontSize: '12px', textTransform: 'none'}}>
                               Register
                             </span>
                           </Button>

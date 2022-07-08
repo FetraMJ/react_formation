@@ -15,7 +15,7 @@ const Item = styled(Box)(({ theme }) => ({
 const useStyles = {
     text_initial: {
       textTransform: 'initial',
-      fontFamily:'Comic Sans MS',
+      fontFamily:'Arial',
       color: 'white',
       ':hover': {
         bgcolor: '#3daac7',
@@ -50,7 +50,7 @@ export const SlideShow = () => {
       <Stack spacing={0}>
             <Stack direction="column" spacing={10} marginTop='40px'>
                 <Stack direction="row" spacing={1} >
-                  <Box width={'190px'} />
+                  <Box width={'215px'} />
                       <img
                         src={process.env.PUBLIC_URL + esokia_logo}
                         alt="esokia_logo"
