@@ -1,5 +1,4 @@
 import { Stack,Typography } from "@mui/material"
-import chien from '../components/image/chien_img.png'
 
 export const Services = () => {
   return (

@@ -4,12 +4,13 @@ import { PhoneAndroid } from '@mui/icons-material';
 
 export const UpperHeader = () => {
   
-  return (  <Box  sx={{
+  return (  <Box 
+               sx={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "flex-end"
     
-  }}>
+                  }}>
               <AppBar position='static' style={{backgroundColor: '#161b1d',height:'32px'}}  
                          >
                       <Stack direction='row' spacing={1} height='32px' justifyContent='flex-end'>
@@ -42,7 +43,7 @@ export const UpperHeader = () => {
                                           flexWrap: 'wrap',
                                         }}
                           >
-                              <span style={{ fontSize: '11px' }}>
+                              <span style={{ fontSize: '11px', textTransform: 'none' }}>
                                 Login
                               </span>
                           </Button>
@@ -58,7 +59,7 @@ export const UpperHeader = () => {
                                     flexWrap: 'wrap',
                                   }}
                           >
-                            <span style={{ fontSize: '11px'}}>
+                            <span style={{ fontSize: '11px', textTransform: 'none'}}>
                               Register
                             </span>
                           </Button>

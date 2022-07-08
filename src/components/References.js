@@ -17,7 +17,7 @@ export const References = () => {
                 <CardMedia 
                     component='img'
                     height='235px'
-                    image="components/image/photodune1.png"
+                    image={require('../components/image/photodune1.png')}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" color='#4ec1e0'>
@@ -35,7 +35,7 @@ export const References = () => {
                 <CardMedia 
                     component='img'
                     height='235px'
-                    image='url(components/image/photodune1.png)'
+                    image={require('../components/image/photodune2.png')}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" color='#4ec1e0'>
@@ -53,7 +53,7 @@ export const References = () => {
                 <CardMedia 
                     component='img'
                     height='235px'
-                    image='url(components/image/photodune1.png)'
+                    image={require('../components/image/photodune3.png')}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" color='#4ec1e0'>

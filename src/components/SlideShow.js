@@ -15,9 +15,11 @@ const Item = styled(Box)(({ theme }) => ({
 const useStyles = {
     text_initial: {
       textTransform: 'initial',
+      fontFamily:'Comic Sans MS',
+      color: 'white',
       ':hover': {
         bgcolor: '#3daac7',
-        color: 'white',
+        
       },
     },
     text_title: {
