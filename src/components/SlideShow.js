@@ -40,11 +40,12 @@ const useStyles = {
 
 export const SlideShow = () => {
   return (
-    <Box>
+    <Box
+      sx={{
+        height: '692px' , 
+        backgroundImage : `url(${process.env.PUBLIC_URL + chien_img})`,
+      }}>
       <Stack spacing={0}>
-        <Item sx={{ height: '692px' , 
-              backgroundImage : `url(${process.env.PUBLIC_URL + chien_img})`}} 
-        >
             <Stack direction="column" spacing={10} marginTop='40px'>
                 <Stack direction="row" spacing={1} >
                   <Box width={'190px'} />
@@ -81,7 +82,6 @@ export const SlideShow = () => {
                   </Button>
                 </Stack>
             </Stack>
-        </Item>
       </Stack>
     </Box>
   );
